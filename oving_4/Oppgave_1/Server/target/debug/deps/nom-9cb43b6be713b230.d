@@ -1,0 +1,15 @@
+c:\Users\manis\Documents\Nettverksprogrammering\oving_4\Oppgave_1_2\target\debug\deps\nom-9cb43b6be713b230.rmeta: C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\lib.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\util.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\internal.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\macros.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\methods.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\bytes.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\bits.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\nom.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\character.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\stream.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\str.rs
+
+c:\Users\manis\Documents\Nettverksprogrammering\oving_4\Oppgave_1_2\target\debug\deps\nom-9cb43b6be713b230.d: C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\lib.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\util.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\internal.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\macros.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\methods.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\bytes.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\bits.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\nom.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\character.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\stream.rs C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\str.rs
+
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\lib.rs:
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\util.rs:
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\internal.rs:
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\macros.rs:
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\methods.rs:
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\bytes.rs:
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\bits.rs:
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\nom.rs:
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\character.rs:
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\stream.rs:
+C:\Users\manis\.cargo\registry\src\github.com-1ecc6299db9ec823\nom-1.2.4\src\str.rs:
