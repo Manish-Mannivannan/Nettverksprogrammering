@@ -1,0 +1,205 @@
+@import "./base.css";
+
+#app {
+  top: 0;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-red);
+  transition: 0.4s;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(238, 238, 238);
+  border-radius: 100vw;
+  margin-block: 0.4em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-color-light);
+  border: 0.1em solid var(--color-red);
+  border-radius: 100vw;
+  transition: 0.2s ease-in;
+}
+
+input,
+button,
+select {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin: 0.3em;
+  padding: 0.9em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #0f0f0f;
+  background-color: var(--color-green);
+  transition: border-color 0.25s;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--color-red);
+  scale: 1.04;
+  color: var(--color-red);
+}
+
+button:active {
+  scale: 0.96;
+}
+
+button[disabled], button:hover[disabled]{
+  border-color: transparent;
+  scale: 0.96;
+  opacity: 0.5;
+  color: #0f0f0f;
+}
+
+input:focus-within {
+  border-color: var(--color-red);
+  scale: 1.04;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px var(--color-green) inset !important;
+  -webkit-box-shadow: 0 0 0 30px var(--color-green) inset !important;
+}
+
+input,
+button {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: var(--color-dark-dark);
+}
+
+input:focus::-webkit-input-placeholder {
+  color: var(--color-red);
+}
+
+input[type="number"] {
+  appearance: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+textarea {
+  appearance: none;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-family: inherit;
+  resize: none;
+}
+
+hr{
+  border: 1px solid var(--color-red);
+}
+
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: var(--color-dark-dark);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--vt-c-black);
+  }
+
+  input,
+  button,
+  select {
+    color: #ffffff;
+    background-color: var(--bg-field-dark);
+  }
+
+  button:hover {
+    background-color: var(--color-dark-dark);
+  }
+
+  button[disabled], button:hover[disabled]{
+    border-color: transparent;
+    background-color: var(--bg-field-dark);
+    color: #ffffff;
+    scale: 0.96;
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #999;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-text-fill-color: #ffffff !important;
+    background-color: var(--color-dark-dark);
+    box-shadow: 0 0 0 400px var(--color-dark-dark) inset !important;
+    -webkit-box-shadow: 0 0 0 400px var(--color-dark-dark) inset !important;
+    border: 1px solid transparent;
+    outline: none;
+    border-color: var(--color-red);
+  }
+
+  input:-webkit-autofill {
+    border: 1px solid transparent;
+    border-color: var(--color-dark-dark);
+  }
+
+  textarea{
+    background-color: var(--bg-field-dark);
+    border: 1px solid transparent;
+    color: #ffffff;
+    text-align: justify;
+  }
+
+  textarea:active,
+  textarea:hover,
+  textarea:focus{
+    outline: none !important;
+    background-color: var(--bg-field-dark);
+    border: 1px solid transparent;
+  }
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(0, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  /* #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  } */
+}
