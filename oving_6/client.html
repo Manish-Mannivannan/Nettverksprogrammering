@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        height: 10vh;
+        width: 50vw;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WebSocket test page</h1>
+    <br />
+    <input type="text" id="input" />
+    <br /><br />
+    <button id="send" onclick="sendData()">Send</button>
+    <h3 id="output"></h3>
+  </body>
+  <script>
+    let ws = new WebSocket("ws://localhost:3001");
+    ws.onmessage = ({ data }) => (output.innerText += data + "\n");
+
+    let input = document.getElementById("input");
+    let button = document.getElementById("send");
+    let output = document.getElementById("output");
+
+    function sendData() {
+      ws.send(
+        JSON.stringify({
+          text: input.value,
+        })
+      );
+      input.value = "";
+    }
+  </script>
+</html>
